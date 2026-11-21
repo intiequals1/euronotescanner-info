@@ -8,14 +8,31 @@ Das Repository mit dem Quellcode ist seit 21.11.2026 privat. Diese Seite fasst z
 
 ## Anlass
 
-Die Anwendung hatte eine Speicherfunktion. Sie nahm Einträge ohne Anmeldung und ohne Prüfung an und schrieb sie in das öffentliche Repository – einschließlich des hochgeladenen Fotos. Foto und Seriennummer waren damit für alle abrufbar, auch über die Website.
+Die Anwendung hatte eine Speicherfunktion, die analysierte Scheine samt Foto in das öffentliche Repository schrieb.
 
 Gespeichert waren zwei Einträge vom 31.05.2025 mit Seriennummer, Prüfsummen, Ländercode und demselben Foto eines Euro-Scheins. Frühere Fassungen der Datei vom 30.05.2025 enthielten Einträge ohne Foto. Es gibt keinen Hinweis darauf, dass Dritte die Speicherfunktion genutzt haben: Alle Einträge stammen aus Mai 2025, der letzte Commit vor dem 21.11.2026 war mein eigener vom 29.03.2026.
 
 ## Bedenken
 
-- **Datenschutzrechtlich:** Hochgeladene Fotos wurden vollständig und öffentlich gespeichert.
-- **Moralisch:** Der fotografierte Schein ist nicht mehr in meinem Besitz.
+### Datenschutzrechtlich
+
+- Die Seite versprach, Einträge „verschlüsselt in einem privaten GitHub-Repository“ zu speichern. Tatsächlich lagen sie unverschlüsselt in einem öffentlichen Repository.
+- Hochgeladene Fotos wurden vollständig gespeichert und waren für alle abrufbar, auch über die Website.
+- Jeder Eintrag verband eine bestimmte Banknote – Seriennummer und Foto – mit meinem GitHub-Konto und einem genauen Zeitpunkt.
+- Fotos können mehr zeigen als den Schein, etwa Hände oder die Umgebung der Aufnahme.
+- Was in einem öffentlichen Repository liegt, bleibt in der Git-Historie und in Kopien erhalten, auch wenn die Datei später gelöscht wird.
+
+### Abbildung von Euro-Banknoten
+
+Für Abbildungen von Euro-Banknoten gelten die [Reproduktionsvorschriften der Europäischen Zentralbank](https://www.ecb.europa.eu/euro/html/reproduction.de.html) (Beschluss EZB/2013/10). Nach den Erläuterungen der EZB müssen digitale Abbildungen den Schriftzug „SPECIMEN“ tragen; in Originalgröße ist die Auflösung auf 72 dpi begrenzt. Verantwortlich ist, wer die Abbildung herstellt. Die gespeicherten Fotos trugen keinen solchen Schriftzug.
+
+### Sicherheit
+
+Die Speicherfunktion war ohne Anmeldung erreichbar. Jeder hätte damit Inhalte in mein öffentliches Repository schreiben können.
+
+### Moralisch
+
+Der fotografierte Schein ist nicht mehr in meinem Besitz.
 
 ## Arbeitsverlauf am 21.11.2026
 
@@ -29,6 +46,8 @@ Gespeichert waren zwei Einträge vom 31.05.2025 mit Seriennummer, Prüfsummen, L
 | 12:46 | Repository auf privat gestellt. |
 
 ## Erklärung
+
+Fotografiert habe ich ausschließlich einen Schein aus meinem eigenen Besitz. Banknoten anderer Personen habe ich nicht fotografiert.
 
 Die bisherigen Daten wurden von mir nicht für meinen Zweck verwendet. Ich hatte und habe nicht die Absicht dazu.
 
