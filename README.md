@@ -47,9 +47,15 @@ Der fotografierte Schein ist nicht mehr in meinem Besitz.
 
 ## Erklärung
 
-Fotografiert habe ich ausschließlich einen Schein aus meinem eigenen Besitz. Banknoten anderer Personen habe ich nicht fotografiert.
+Fotografiert habe ich ausschließlich einen Schein aus meinem eigenen Besitz. Zum Zeitpunkt der Aufnahme durfte ich rechtmäßig über ihn verfügen. Banknoten anderer Personen habe ich nicht fotografiert.
 
-Die bisherigen Daten wurden von mir nicht für meinen Zweck verwendet. Ich hatte und habe nicht die Absicht dazu.
+Zweck der Verwendung der bisherigen Daten war ausschließlich, die Technologie zu überprüfen, mich über rechtliche und ethische Themen zu informieren, bei rechtlichen Informationen auf dem aktuellen Stand zu bleiben und mich moralisch zu bilden. Für andere Zwecke habe ich sie nicht verwendet, und ich hatte und habe nicht die Absicht dazu.
+
+### In einfachen Worten
+
+- Der Geldschein auf dem Foto war mein eigenes Geld. Ich durfte ihn fotografieren und ausgeben.
+- Geld von anderen Menschen habe ich nicht fotografiert.
+- Ich habe die Daten nur für einen Zweck benutzt: um die Technik auszuprobieren und um zu lernen, was Gesetze erlauben und was richtig und fair ist. Für etwas anderes habe ich sie nicht benutzt, und ich werde es auch nicht tun.
 
 ## Weitere Recherchen und Fragen
 
