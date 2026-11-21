@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EuroNoteScanner – Übersicht</title>
+  <meta name="description" content="EuroNoteScanner: Bedenken, Datenlöschung und Arbeitsverlauf vom 21.11.2026.">
+  <style>
+    :root {
+      --bg: #fafaf8;
+      --text: #1f2328;
+      --muted: #59636e;
+      --line: #d8dee4;
+      --accent: #1e4fa3;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #16181c;
+        --text: #e6e8eb;
+        --muted: #a3acb6;
+        --line: #343a42;
+        --accent: #8fb4f5;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    main { max-width: 46rem; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+    h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .25rem; }
+    h2 { font-size: 1.25rem; margin: 2.5rem 0 .75rem; padding-top: 1.5rem; border-top: 1px solid var(--line); }
+    .stand { color: var(--muted); margin: 0 0 2rem; }
+    a { color: var(--accent); }
+    ul { padding-left: 1.25rem; }
+    li { margin: .35rem 0; }
+    table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+    th, td { text-align: left; vertical-align: top; padding: .6rem .5rem; border-bottom: 1px solid var(--line); }
+    th { color: var(--muted); font-weight: 600; }
+    td:first-child { white-space: nowrap; color: var(--muted); }
+    footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>EuroNoteScanner – Übersicht</h1>
+    <p class="stand">Stand: 21.11.2026</p>
+
+    <p>EuroNoteScanner war eine Webanwendung, mit der ich für mich selbst herausfinden wollte, wie man Bargeld mit Technologie auf Richtigkeit überprüfen kann: Foto eines Euro-Scheins hochladen, Seriennummer per Texterkennung (OCR) auslesen, Ziffern- und Quersumme berechnen, Ländercode bestimmen. Soweit mir zu dem Zeitpunkt bekannt war, haftet man selbst, wenn man auch unwissentlich mit Falschgeld etwas kaufen möchte.</p>
+
+    <p>Das Repository mit dem Quellcode ist seit 21.11.2026 privat. Diese Seite fasst zusammen, warum, und was an diesem Tag geschehen ist.</p>
+
+    <h2>Anlass</h2>
+    <p>Die Anwendung hatte eine Speicherfunktion. Sie nahm Einträge ohne Anmeldung und ohne Prüfung an und schrieb sie in das öffentliche Repository – einschließlich des hochgeladenen Fotos. Foto und Seriennummer waren damit für alle abrufbar, auch über die Website.</p>
+    <p>Gespeichert waren zwei Einträge vom 31.05.2025 mit Seriennummer, Prüfsummen, Ländercode und demselben Foto eines Euro-Scheins. Frühere Fassungen der Datei vom 30.05.2025 enthielten Einträge ohne Foto. Es gibt keinen Hinweis darauf, dass Dritte die Speicherfunktion genutzt haben: Alle Einträge stammen aus Mai 2025, der letzte Commit vor dem 21.11.2026 war mein eigener vom 29.03.2026.</p>
+
+    <h2>Bedenken</h2>
+    <ul>
+      <li><strong>Datenschutzrechtlich:</strong> Hochgeladene Fotos wurden vollständig und öffentlich gespeichert.</li>
+      <li><strong>Moralisch:</strong> Der fotografierte Schein ist nicht mehr in meinem Besitz.</li>
+    </ul>
+
+    <h2>Arbeitsverlauf am 21.11.2026</h2>
+    <table>
+      <thead>
+        <tr><th scope="col">Zeit (MEZ)</th><th scope="col">Schritt</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>ab 08:30</td><td>Prüfung meiner Softwareprojekte nach dem EU Cyber Resilience Act (CRA). EuroNoteScanner ist danach kein CRA-Produkt (Browser-Anwendung, keine Einnahmen). Dabei fiel die ungeschützte Speicherfunktion auf.</td></tr>
+        <tr><td>12:33</td><td>Einträge und Quellstand privat archiviert.</td></tr>
+        <tr><td>12:34</td><td>Einträge aus dem aktuellen Stand gelöscht, Löschung im README dokumentiert.</td></tr>
+        <tr><td>12:38</td><td>Speicherfunktion abgeschaltet: Speichern und Laden entfernt, die Website speichert keine Analysen mehr.</td></tr>
+        <tr><td>12:40</td><td>Vollständige Historie privat gesichert, danach die Einträge aus der gesamten Git-Historie aller Branches entfernt.</td></tr>
+        <tr><td>12:46</td><td>Repository auf privat gestellt.</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Erklärung</h2>
+    <p>Die bisherigen Daten wurden von mir nicht für meinen Zweck verwendet. Ich hatte und habe nicht die Absicht dazu.</p>
+
+    <h2>Weitere Recherchen und Fragen</h2>
+    <p>Wer sich für das Thema interessiert – die Echtheitsprüfung von Bargeld mit Technologie –, weitere Recherchen anstellen möchte oder Fragen zu diesem Vorgang hat, kann sich gerne an mich wenden: <a href="https://www.dangulea.at/">dangulea.at</a></p>
+
+    <footer>
+      Claudiu Dangulea, Wien · <a href="https://www.dangulea.at/impressum">Impressum</a>
+    </footer>
+  </main>
+</body>
+</html>
